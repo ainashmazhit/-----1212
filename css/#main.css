@@ -1,0 +1,14 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header ul {
+    list-style: none;
+    float: right;
+    margin-top: 27px;
+    margin-right: 60px;
+}
+.header li {
+    float: left;
+}
