@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo';
+    color:  #21243D;
+}
+
+.wrapper {
+   margin: 0 auto; 
+   width: 856px;
+
+}
+
+/*шапка*/ 
+
+.header {
+    overflow: hidden;
+}
+
+.header ul {
+    list-style: none;
+    float: right;
+    margin: 27px, 60px, 27px, 0;
+}
+
+.header li {
+    float: left;
+    margin-left: 32px;
+}
+
+
+.header a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+/*блок автор*/
+.avtor {
+    margin-top: 128px;
+    margin-bottom: 72px;
+}
+.avtor .wrapper {
+    overflow: hidden;
+}
+.avtor__info {
+    float: left;
+    width: calc(100% - 243px);
+    padding-right: 115px;
+}
+.avtor__avatar {
+    float: right;
+    width: 243px;
+}
+
+.avtor__avatar img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: -6px 6px 0px #EDF7FA;
+}
+.avtor__tittle {
+    font-size: 44px;
+    font-weight: 700px;
+    line-height: 136%;
+    margin-bottom: 40px;
+}
+.avtor__text {
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 40px;
+}
+/*кнопка*/
+
+.button { color: #fff;
+    background-color: #FF6464;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
